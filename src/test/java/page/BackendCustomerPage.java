@@ -18,6 +18,8 @@ public class BackendCustomerPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
+	public void clickCustomer() {
+		custLink.click();
+		}
 
 }
